@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Tadzik",
+    "slug": "tadzik",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "scheme": "tadzik",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tadzik.app",
+      "buildNumber": "2.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f0f"
+      },
+      "package": "com.tadzik.app",
+      "versionCode": 20
+    },
+    "plugins": [
+      ["expo-notifications", { "icon": "./assets/notification-icon.png", "color": "#0f0f0f" }],
+      ["expo-camera", { "cameraPermission": "Tadzik potrzebuje aparatu, byś mógł dodać nowe miejsce i podzielić się nim ze światem!" }],
+      ["expo-location", { "locationAlwaysAndWhenInUsePermission": "Tadzik używa lokalizacji, by pokazać Ci najbliższe atrakcje i ścieżki rowerowe." }],
+      ["@stripe/stripe-react-native", { "merchantIdentifier": "merchant.com.tadzik.app", "enableGooglePay": true }],
+      ["expo-av", { "microphonePermission": "Tadzik potrzebuje mikrofonu do nagrywania notatek głosowych z podróży." }]
+    ]
+  }
+}

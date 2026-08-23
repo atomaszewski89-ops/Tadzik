@@ -1,0 +1,65 @@
+{
+  "name": "Tadzik - Asystent & Przewodnik Seniora",
+  "short_name": "Tadzik",
+  "description": "Smart przewodnik turystyczny, planer tras i rozkładów, asystent seniora, trasy rowerowe i paszport podróżnika",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "scope": "/",
+  "lang": "pl",
+  "dir": "ltr",
+  "categories": ["travel", "navigation", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Odkrywaj Atrakcje",
+      "short_name": "Odkrywaj",
+      "description": "Przeglądaj atrakcje turystyczne i pogodę",
+      "url": "/#explore",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Planer Bezpiecznego Powrotu",
+      "short_name": "Dworzec",
+      "description": "Sprawdź dojazd i bezpieczny powrót na stację",
+      "url": "/#station-router",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Ścieżki Rowerowe (Fietspaden)",
+      "short_name": "Rower",
+      "description": "Bezpieczne, płaskie trasy rowerowe",
+      "url": "/#cycling",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Tadzik",
+  "description": "An elderly-friendly, multi-lingual smart travel companion with budget attraction filtering, 9292 transit planner, station headway return router, Virtual Passport, and Weekly Challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

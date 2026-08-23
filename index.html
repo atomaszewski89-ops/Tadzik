@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Tadzik - Asystent & Przewodnik Seniora</title>
+    
+    <!-- PWA & Mobile Web App settings -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    
+    <!-- iOS Web App Specifics -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tadzik" />
+    
+    <!-- Android / Chrome Specifics -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="format-detection" content="telephone=no" />
+  </head>
+  <body class="overscroll-none select-text">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
